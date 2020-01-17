@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 % read an image
-a = rgb2gray(imread('ironman.jpg'));
+a = rgb2gray(imread('hp.jpg'));
 % Read image size
 [m,n] = size(a);
 b = double(a);
