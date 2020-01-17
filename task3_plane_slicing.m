@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 % read an image
-a = rgb2gray(imread('hp.jpg'));
+a = rgb2gray(imread('harry-potter-2.jpg'));
 % Read image size
 [m,n] = size(a);
 b = double(a);
