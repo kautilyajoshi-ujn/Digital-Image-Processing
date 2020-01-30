@@ -4,7 +4,7 @@ clear;
 close all;
 % read an image
 a = rgb2gray(imread('harry-potter-2.jpg'));
-sg = rgb2gray(imread('sign.jpg'));
+sg = rgb2gray(imread('SIGN.jpg'));
 % Read image size
 [m,n] = size(a);
 b = double(a);
