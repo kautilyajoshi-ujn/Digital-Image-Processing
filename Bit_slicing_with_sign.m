@@ -58,4 +58,8 @@ for i = 1:8
         imshow(uint8(d3))
         title([' ',num2str(i),'th plane modified'])
     end
+
 end
+
+end
+

@@ -1,7 +1,11 @@
 %BT17ECE009__KAUTILYA_JOSHI
 
 clc;clear;close all;
+
 rd = rgb2gray(imread('harry-potter-2.jpg')); %Reading an image
+
+rd = rgb2gray(imread('img2.jpg')); %Reading an image
+
 [m,n] = size(rd);
 [rd,hist1] = deal(double(rd),zeros(1,256));
     %Getting histogram 1 of original image
