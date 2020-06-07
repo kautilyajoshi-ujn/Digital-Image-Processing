@@ -1,5 +1,5 @@
 clc;clear;close all;
-im = imread('fl2.jpg');
+im = imread('harry-potter-2.jpg');
 %Red Plane
 im1 = cat(3,im(:,:,1),zeros(size(im,1),size(im,2),'uint8'),zeros(size(im,1),size(im,2),'uint8')); 
 %Green Plane

@@ -1,3 +1,4 @@
+%BT17ECE009__KAUTILYA_JOSHI
 clc;clear;close all;
 %Load the image
 img = imread('img1.jpg');

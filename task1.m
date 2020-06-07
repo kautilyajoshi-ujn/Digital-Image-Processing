@@ -1,22 +1,8 @@
 clc;clear;close all;
-%% Read an image
-rd = imread('img1.jpg');
-%Writing Image with different extension
-imwrite(rd,'img1_1.png');
 
-%% Histogram of Image
-rd = imread('img1.jpg');
-%Plotting histogram of an image
-histogram(rd)
-
-%% DWT2
-rd = imread('img1.jpg');
-[cA,cH,cV,cD] = dwt2(rd,'sym4','mode','per');
-imagesc(cA) 
-title('Approximation Coefficients')
 
 %% Histogram Equalization
-rd = rgb2gray(imread('img2.jpg'));
+rd = rgb2gray(imread('harry-potter-2.jpg'));
 s = size(rd);
 rd = double(rd);
 
