@@ -2,8 +2,7 @@
 clc; clear; close all;
 %Reading an input image 
 image=double((imread('fl2.jpg')));
-% Read Grayscale image 
-% image=double((imread('cameraman.bmp')));
+;
 
 % Computing the size of an image
 [m1,n1,dim]=size(image);

@@ -29,5 +29,5 @@ watermarked=idwt2(water_marked_LL,host_LH,host_HL,host_HH,'haar');
 subplot(1,3,3)
 imshow(uint8(watermarked));
 title('Watermarked image');
-y='Wtermarked succesfully';
+y='Watermarked succesfully';
 end
